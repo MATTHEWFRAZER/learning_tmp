@@ -1,3 +1,0 @@
-/home/mattewfrazer/Desktop/learning_tmp/CMakeFiles/rebuild_cache.dir
-/home/mattewfrazer/Desktop/learning_tmp/CMakeFiles/main.dir
-/home/mattewfrazer/Desktop/learning_tmp/CMakeFiles/edit_cache.dir

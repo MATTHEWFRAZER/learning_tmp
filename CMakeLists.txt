@@ -18,21 +18,11 @@ if(NOT Boost_POPULATED)
   message(STATUS "Fetching Boost - done")
   set(BOOST_SOURCE ${boost_SOURCE_DIR})
 endif()
-#set(BOOST_DIR /mnt/c/boostfiles/lib/cmake/Boost-1.70.0/)
-#find_package(BOOST 1.70.0 COMPONENTS type_traits REQUIRED)
-#include_directories(${Boost_INCLUDE_DIR})
-#link_directories(${Boost_LIBRARY_DIR})
-
-#set(SOURCES ${PROJECT_SOURCE_DIR}/test_driver_exercises_2.cpp)
-
-#add_executable(main ${PROJECT_SOURCE_DIR}/main.cpp)
-#target_link_libraries(main Boost::type_traits ${SOURCES})
 
 
-#cmake_minimum_required(VERSION 2.8)
-set(Boost_INCLUDE_DIR ~/Desktop/boost/)
-set(BOOST_ROOT ~/Desktop/boostfiles)
-set(BOOST_LIBRARYDIR ~/Desktop/learning_tmp/boostfiles/lib)
+set(Boost_INCLUDE_DIR _deps/boost-src)
+set(BOOST_ROOT _deps/boost-src)
+set(BOOST_LIBRARYDIR _deps/boost-src/libs)
 include_directories(${Boost_INCLUDE_DIR} ${PROJECT_SOURCE_DIR})
 
 #set(SOURCES ${PROJECT_SOURCE_DIR}/answer_getter.cpp)
